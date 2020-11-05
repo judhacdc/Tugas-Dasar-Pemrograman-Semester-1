@@ -1,0 +1,36 @@
+
+import java.util.Scanner;
+public class segitiga {
+     public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+       int sudut1,sudut2,sudut3 ;
+       
+       System.out.print("+================================== +");
+        System.out.println("");
+        System.out.print("|PROGRAM PEMILIHAN SEBUAH SEGITIGA  |");
+        System.out.println("");
+        System.out.println("+===================================+");
+       
+         System.out.print("Masukkan sudut 1\t\t\t: ");
+         sudut1 = sc.nextInt();
+         System.out.print("Masukkan sudut 2\t\t\t: ");
+         sudut2 = sc.nextInt() ;
+         System.out.print("Masukkan sudut 3\t\t\t: ");
+         sudut3 = sc.nextInt() ;
+         
+        
+       
+        
+       if (sudut1==60	&& sudut2 == 60 && sudut3== 60){
+           System.out.print("Segitiga Sama sisi");
+       }
+       else if (sudut1==50	&& sudut2 == 50 && sudut3== 80)
+       {System.out.print("Segitiga Sama Kaki");
+       }
+       else if (sudut1==90	&& sudut2 == 45 && sudut3== 45 ){
+           System.out.print("Segitiga Siku -  Siku");}
+       else {
+           System.out.print("Tidak ada segitiga yang cocok dengan sudut tersebut");}
+        
+}
+}
