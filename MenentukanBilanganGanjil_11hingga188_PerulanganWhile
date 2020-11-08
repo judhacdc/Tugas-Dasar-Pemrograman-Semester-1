@@ -1,0 +1,12 @@
+public class ganjilwhile {
+    public static void main(String[] args) {
+     
+        
+       int i=11;
+       while (i<=188) {
+           if (i%2==1)
+           System.out.println(i);
+       i++;}
+}
+}
+// CODE BY JUDHA MAYGUSTYA
