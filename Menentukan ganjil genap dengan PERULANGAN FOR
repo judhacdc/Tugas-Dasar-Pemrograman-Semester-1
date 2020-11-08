@@ -1,0 +1,22 @@
+
+public class GanjilGenapPerulangan {
+    public static void main(String[] args) {
+
+    for (int i=1;i<=20;i++){
+        
+    if (i%2==0) {
+        System.out.println(i+" MERUPAKAN BILANGAN GENAP");}
+        else{
+        System.out.println(i+" MERUPAKAN BILANGAN GANJIL");}
+   
+    
+    }
+    
+    }
+}
+
+//**Jika ingin membuat penentuan ganjil genap lebih dari 20 tinggal mengubah batasan yang terletak di
+//**bagian for.. semisal ingin membuat penentuan ganjil genap di atas 100 maka code yang semula  for (int i=1;i<=20;i++)
+//**di ubah menjadi  for (int i=1;i<=100;i++)
+
+//** CODE BY JUDHA MAYGUSTYA
