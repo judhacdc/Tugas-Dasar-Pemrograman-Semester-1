@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Faktorial {
+     public static void main(String[] args){
+       Scanner sc = new Scanner (System.in);
+       
+       int i,fac,bilangan;
+       fac=1;
+       
+         System.out.println("Masukkan Bilangan yang ingin di Faktor kan\t\t: ");
+         bilangan = sc.nextInt();
+         
+         for (i=1;i<=bilangan;i++){
+         fac=fac*i;
+             System.out.printf("Ketika i=%d dan Faktorial=%d \n",i,fac);
+         }
+         System.out.println("Nilai Faktoriial nya adalah :"+fac);
+    
+}
+}
+// CODE BY JUDHA MAYGUSTYA
